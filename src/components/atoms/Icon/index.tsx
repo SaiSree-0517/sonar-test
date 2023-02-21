@@ -9,7 +9,9 @@ interface PropType{
 const Icon = (props: PropType) => {
     return (    
         <SvgIcon>
-            <image xlinkHref = { props.path }
+            <image 
+            data-testid="image"
+            xlinkHref = { props.path }
             height = { props.height }  
             width = { props.width }
             strokeWidth = { props.strokeWidth } />
