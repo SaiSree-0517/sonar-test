@@ -41,6 +41,11 @@ const StyledBox = styled(Box)(() => ({
   marginRight: '3px',
   marginLeft: '0px',
 }))
+const IconComponent=() => (
+  <StyledBox >
+    <Icon src={ChevronDown} width="12.73px" height="7.78px" />
+  </StyledBox>
+);
 const Dropper: React.FC<DropperProps> = (props) => {
   const { onChange, menuList, width , backgroundColor} = props
   return (
@@ -49,11 +54,7 @@ const Dropper: React.FC<DropperProps> = (props) => {
       defaultValue={menuList[0]}
       onChange={(e) => onChange(e.target.value)}
       sx={{ width: width, backgroundColor: backgroundColor }}
-      IconComponent={(_allowAsProps:true) => (
-        <StyledBox>
-          <Icon src={ChevronDown} width="12.73px" height="7.78px" />
-        </StyledBox>
-      )}
+      IconComponent={IconComponent}
       MenuProps={{
         anchorOrigin: {
           vertical: 'bottom',
