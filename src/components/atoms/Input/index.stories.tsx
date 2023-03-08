@@ -3,7 +3,7 @@ import { ComponentMeta, ComponentStory } from "@storybook/react";
 import SearchIcon from '@mui/icons-material/Search';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 export default {
-  title: "Input",
+  title: "atoms/Input",
   component: Input,
   argTypes: {
     variant: {

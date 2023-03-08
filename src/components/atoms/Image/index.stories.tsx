@@ -8,7 +8,7 @@ export default {
   argTypes: {
     source: {
       control: { type: "select" },
-      options: ["Assets/login.svg", "Assets/signup.svg"],
+      options: ["assets/images/LoginImage.svg", "assets/images/SignupImage.svg"],
     },
     width: {
       control: { type: "text" },
@@ -25,14 +25,14 @@ const Template: ComponentStory<typeof Image> = (args: any) => (
 
 export const Login = Template.bind({});
 Login.args = {
-  source: "Assets/login.svg",
+  source: "assets/images/LoginImage.svg",
   width: "720px",
   height: "768px",
 };
 
 export const Signup = Template.bind({});
 Signup.args = {
-  source: "Assets/signup.svg",
+  source: "assets/images/SignupImage.svg",
   width: "720px",
   height: "768px",
 };

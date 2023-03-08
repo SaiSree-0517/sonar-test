@@ -1,21 +1,32 @@
+import { styled } from '@mui/material'
+import { height } from '@mui/system'
 import React from 'react'
-import SvgIcon from "@mui/material/SvgIcon"
-interface PropType{
-    path: string;
-    width?: string;
-    height?: string;
-    strokeWidth?: number;
+interface IconComponentProps {
+  width?: string
+  height?: string
+  padding?: string
+  id?:string
+  src: string
 }
-const Icon = (props: PropType) => {
-    return (    
-        <SvgIcon>
-            <image 
-            data-testid="image"
-            xlinkHref = { props.path }
-            height = { props.height }  
-            width = { props.width }
-            strokeWidth = { props.strokeWidth } />
-        </SvgIcon>   
-    )   
+const StyledIcon = styled('img')((props: IconComponentProps) => ({
+  height: props.height,
+  width: props.width,
+  padding: props.padding,
+}))
+const Icon = (props: IconComponentProps) => {
+  const { src, width, height, padding,id } = props
+  return (
+    <div>
+      <StyledIcon
+        src={src}
+        width={width}
+        height={height}
+        padding={padding}
+        alt="icon"
+        data-testid="iconComponent"
+        id={id}
+      />
+    </div>
+  )
 }
-export default Icon;
+export default Icon

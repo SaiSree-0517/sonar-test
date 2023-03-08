@@ -1,7 +1,7 @@
 import MuiButton from "./index";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 export default {
-  title: "Button",
+  title: "atoms/Button",
   component: MuiButton,
   argTypes: {
     variant: {

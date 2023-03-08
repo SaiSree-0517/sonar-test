@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import AvatarComponent from '.';
 import ProfileImage from "../../../../public/assets/images/profile.svg"
 export default {
-    title: "Avatar Atom",
+    title: "atoms/Avatar Atom",
     component: AvatarComponent,
     argTypes:{
       variant:{

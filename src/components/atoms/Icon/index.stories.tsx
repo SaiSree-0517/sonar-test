@@ -2,10 +2,10 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import Icon from "./index"
 export default {
-    title: "Icon Atom",
+    title: "atoms/Icon Atom",
     component: Icon,
     argTypes: {
-      path: {
+      src: {
       control: {type:'select'},
       options: ['assets/images/bank-card.svg',
         "assets/images/eye.svg",
@@ -32,7 +32,7 @@ export default {
   const template: ComponentStory<typeof Icon> = (args) => <Icon {...args} />;
   export const Icon1 = template.bind({});
   Icon1.args = {
-    path: 'assets/images/dashboard.svg',
+    src: 'assets/images/dashboard.svg',
     width: '20px',
     height: '20px',
   };
