@@ -1,34 +1,15 @@
-import React from "react";
-import { Typography } from "@mui/material";
-
-interface PropsType {
-  variant?:
-    | "button"
-    | "caption"
-    | "heading4"
-    | "heading6"
-    | "subtitle1"
-    | "subtitle2"
-    | "body1"
-    | "body2"
-    | "overline";
-  children?: string;
-  align?: "inherit" | "center" | "right" | "left" | "justify" ;
-  fontWeight?: number;
-}
-
-export const MuiTypography = ({
+import React from 'react'
+import Typography, { TypographyProps } from '@mui/material/Typography'
+import { CommonProps } from '@mui/material/OverridableComponent'
+const TypographyComponent: React.FC<TypographyProps & CommonProps> = ({
   variant,
   children,
-  align,
-  fontWeight,
-  ...rest
-}: PropsType) => {
+  ...props
+}) => {
   return (
-    <div>
-      <Typography variant={variant} align={align} fontWeight={fontWeight}>
-        {children}
-      </Typography>
-    </div>
-  );
-};
+    <Typography variant={variant} {...props}>
+      {children}
+    </Typography>
+  )
+}
+export default TypographyComponent

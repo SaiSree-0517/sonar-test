@@ -1,9 +1,9 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { MuiTypography } from "./index";
+import TypographyComponent from "./index";
 
 export default {
-  title: "atoms/MuiTypography",
-  component: MuiTypography,
+  title: "atoms/TypographyComponent",
+  component: TypographyComponent,
   argTypes: {
     variant: {
       control: { type: "select" },
@@ -28,10 +28,10 @@ export default {
       control: { type: "number" },
     },
   },
-} as ComponentMeta<typeof MuiTypography>;
+} as ComponentMeta<typeof TypographyComponent>;
 
-const Template: ComponentStory<typeof MuiTypography> = (args) => (
-  <MuiTypography {...args} />
+const Template: ComponentStory<typeof TypographyComponent> = (args) => (
+  <TypographyComponent {...args} />
 );
 export const Primary = Template.bind({});
 Primary.args = {

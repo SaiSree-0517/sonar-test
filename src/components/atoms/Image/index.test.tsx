@@ -1,5 +1,6 @@
 /* eslint-disable testing-library/prefer-screen-queries */
-import React from "react";
+import React from 'react'
+import '@testing-library/jest-dom'
 import { render } from "@testing-library/react";
 import { Image } from ".";
 

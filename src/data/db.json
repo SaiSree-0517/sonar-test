@@ -1,0 +1,300 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "date": "2015-02-28T12:00:00Z",
+      "cryptoName": "Bitcoin",
+      "transactionState": "warning",
+      "depositor": "Badgley",
+      "status": "purchased",
+      "transactionAmountInBTC": "+0.0010 BTC",
+      "transactionAmount": "+$900",
+      "deliveryFee": "0.001 BTC",
+      "transactionFee": "$1,000.00"
+    },
+    {
+      "id": 2,
+      "date": "2015-02-25T12:00:00Z",
+      "cryptoName": "Bitcoin",
+      "transactionState": "error",
+      "depositor": "Jane Cooper",
+      "status": "purchased",
+      "transactionAmountInBTC": "+0.0230 BTC",
+      "transactionAmount": "+$1,800",
+      "deliveryFee": "0.001 BTC",
+      "transactionFee": "$1,000.00"
+    },
+    {
+      "id": 3,
+      "date": "2015-02-20T12:00:00Z",
+      "cryptoName": "Bitcoin",
+      "transactionState": "success",
+      "depositor": "Leslie Alexander",
+      "status": "purchased",
+      "transactionAmountInBTC": "+0.0030 BTC",
+      "transactionAmount": "+$1,200",
+      "deliveryFee": "0.001 BTC",
+      "transactionFee": "$1,000.00"
+    },
+    {
+      "id": 4,
+      "date": "2015-02-18T12:00:00Z",
+      "cryptoName": "Bitcoin",
+      "transactionState": "success",
+      "depositor": "Guy Hawkins",
+      "status": "purchased",
+      "transactionAmountInBTC": "+0.0150 BTC",
+      "transactionAmount": "+$1,000",
+      "deliveryFee": "0.001 BTC",
+      "transactionFee": "$1,000.00"
+    },
+    {
+      "id": 5,
+      "date": "2015-02-15T12:00:00Z",
+      "cryptoName": "Bitcoin",
+      "transactionState": "success",
+      "depositor": "Jenny Wilson",
+      "status": "purchased",
+      "transactionAmountInBTC": "+0.0650 BTC",
+      "transactionAmount": "+$3,200",
+      "deliveryFee": "0.001 BTC",
+      "transactionFee": "$1,000.00"
+    },
+    {
+      "id": 6,
+      "date": "2015-02-13T12:00:00Z",
+      "cryptoName": "Bitcoin",
+      "transactionState": "success",
+      "depositor": "Jacob Jones",
+      "status": "purchased",
+      "transactionAmountInBTC": "+0.0900 BTC",
+      "transactionAmount": "+$9,000",
+      "deliveryFee": "0.001 BTC",
+      "transactionFee": "$1,000.00"
+    },
+    {
+      "id": 7,
+      "date": "2015-02-10T12:00:00Z",
+      "cryptoName": "Bitcoin",
+      "transactionState": "success",
+      "depositor": "Theresa Webb",
+      "status": "purchased",
+      "transactionAmountInBTC": "+0.0020 BTC",
+      "transactionAmount": "+$1,800",
+      "deliveryFee": "0.001 BTC",
+      "transactionFee": "$1,000.00"
+    },
+    {
+      "id": 8,
+      "date": "2015-02-28T12:00:00Z",
+      "cryptoName": "Ethereum",
+      "transactionState": "warning",
+      "depositor": "Badgley",
+      "status": "purchased",
+      "transactionAmountInBTC": "+0.32345 ETH",
+      "transactionAmount": "+$408.53",
+      "deliveryFee": "0.005 ETH",
+      "transactionFee": "$30.00"
+    },
+    {
+      "id": 9,
+      "date": "2015-02-28T12:00:00Z",
+      "cryptoName": "Ethereum",
+      "transactionState": "warning",
+      "depositor": "Badgley",
+      "status": "purchased",
+      "transactionAmountInBTC": "+0.32345 ETH",
+      "transactionAmount": "+$408.53",
+      "deliveryFee": "0.005 ETH",
+      "transactionFee": "$30.00"
+    },
+    {
+      "id": 10,
+      "date": "2015-02-10T12:00:00Z",
+      "cryptoName": "Ethereum",
+      "transactionState": "success",
+      "depositor": "Theresa Webb",
+      "status": "purchased",
+      "transactionAmountInBTC": "+0.20 ETH",
+      "transactionAmount": "+$240.01",
+      "deliveryFee": "0.005 ETH",
+      "transactionFee": "$30.00"
+    }
+  ],
+  "cryptoCurrency": [
+    {
+      "id": 1,
+      "iconURL": "BitcoinIcon",
+      "cryptoName": "Bitcoin",
+      "type": "BTC",
+      "price": "$3,406,069.54",
+      "change": "+1.06%",
+      "marketCap": "$60.1T",
+      "Vol24H": "$2.9T",
+      "circulatingSupply": "18.8M BTC",
+      "profitloss": "+8.2%",
+      "isWatchlisted": false
+    },
+    {
+      "id": 2,
+      "iconURL": "EthereumIcon",
+      "cryptoName": "Ethereum",
+      "type": "ETH",
+      "price": "$1,297.93",
+      "change": "-5.49%",
+      "marketCap": "$25.4T",
+      "Vol24H": "$11.5B",
+      "circulatingSupply": "122.60M ETH",
+      "profitloss": "+0.64%",
+      "isWatchlisted": false
+    },
+    {
+      "id": 3,
+      "iconURL": "Ethereum2Icon",
+      "cryptoName": "Ethereum 2",
+      "type": "ETH2",
+      "price": "$216,678.10",
+      "change": "-5.49%",
+      "marketCap": "$25.4T",
+      "Vol24H": "$3T",
+      "circulatingSupply": "22.8M BTC",
+      "profitloss": "-1.5%",
+      "isWatchlisted": false
+    },
+
+    {
+      "id": 4,
+      "iconURL": "TetherIcon",
+      "cryptoName": "Tether",
+      "type": "USDT",
+      "price": "$74.31",
+      "change": "+0.11%",
+      "marketCap": "$4.6T",
+      "Vol24H": "$4.1T",
+      "circulatingSupply": "15.8M BTC",
+      "profitloss": "+2.2%",
+      "isWatchlisted": false
+    },
+    {
+      "id": 5,
+      "iconURL": "BitcoinCoin",
+      "cryptoName": "Bitcoin Coin",
+      "type": "BNB",
+      "price": "$24,942.54",
+      "change": "-3.69%",
+      "marketCap": "$4.2T",
+      "Vol24H": "$1.9T",
+      "circulatingSupply": "13.8M BTC",
+      "profitloss": "-4.1%",
+      "isWatchlisted": false
+    },
+    {
+      "id": 6,
+      "iconURL": "CardanoIcon",
+      "cryptoName": "Cardano",
+      "type": "ADA",
+      "price": "$104.52",
+      "change": "-1.82%",
+      "marketCap": "$3.4T",
+      "Vol24H": "$2.6T",
+      "circulatingSupply": "26.8M BTC",
+      "profitloss": "+3.2%",
+      "isWatchlisted": false
+    },
+    {
+      "id": 7,
+      "iconURL": "XRPIcon",
+      "cryptoName": "XRP",
+      "type": "XRP",
+      "price": "$57.21",
+      "change": "+1.11%",
+      "marketCap": "$2.7T",
+      "Vol24H": "$2.2T",
+      "circulatingSupply": "29.8M BTC",
+      "profitloss": "-4.2%",
+      "isWatchlisted": false
+    },
+    {
+      "id": 8,
+      "iconURL": "DodgeCoinIcon",
+      "cryptoName": "Dodge Coin",
+      "type": "XRP",
+      "price": "$17.64",
+      "change": "-6.96%",
+      "marketCap": "$2.3T",
+      "Vol24H": "$2.1T",
+      "circulatingSupply": "30.8M BTC",
+      "profitloss": "-6.2%",
+      "isWatchlisted": false
+    },
+    {
+      "id": 9,
+      "iconURL": "USDCoinIcon",
+      "cryptoName": "USD Coin",
+      "type": "XRP",
+      "price": "$74.26",
+      "change": "+1.01%",
+      "marketCap": "$2.1T",
+      "Vol24H": "$2.5T",
+      "circulatingSupply": "12.8M BTC",
+      "profitloss": "+5.5%",
+      "isWatchlisted": false
+    },
+    {
+      "id": 10,
+      "iconURL": "PolkadotIcon",
+      "cryptoName": "Polkadot",
+      "type": "DOT",
+      "price": "$1,642.39",
+      "change": "+1.01%",
+      "marketCap": "$2.1T",
+      "Vol24H": "$2.5T",
+      "circulatingSupply": "12.8M BTC",
+      "profitloss": "+8.1%",
+      "isWatchlisted": false
+    }
+  ],
+  "myPortfolio": [
+    {
+      "id": 1,
+      "iconURL": "BitcoinIcon",
+      "type": "BTC",
+      "cryptoName": "Bitcoin",
+      "currencyValue": "$34,000.00",
+      "profitLoss": "+1.06%"
+    },
+    {
+      "id": 2,
+      "iconURL": "EthereumIcon",
+      "type": "ETH",
+      "cryptoName": "Ethereum",
+      "currencyValue": "$1,297.85",
+      "profitLoss": "+6.85%"
+    },
+    {
+      "id": 3,
+      "iconURL": "TetherIcon",
+      "type": "USDT",
+      "cryptoName": "Tether",
+      "currencyValue": "$ 74.28",
+      "profitLoss": "-0.01%"
+    },
+    {
+      "id": 4,
+      "iconURL": "XRPIcon",
+      "type": "XRP",
+      "cryptoName": "XRP",
+      "currencyValue": "$44,000",
+      "profitLoss": "-1.00%"
+    }
+  ],
+  "wallets": [
+    {
+      "id": 1,
+      "iconURL": "USDCoinIcon",
+      "type": "US Dollar",
+      "cryptoName": "USD Coin",
+      "totalBalance": "$ 34,000.00"
+    }
+  ]
+}

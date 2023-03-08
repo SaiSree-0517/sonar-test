@@ -1,5 +1,7 @@
 import { fireEvent, render,screen } from "@testing-library/react";
 import Input from "./index";
+import React from 'react'
+import '@testing-library/jest-dom'
 
 test('renders correctly',()=>{
     render(<Input label="email" />)
