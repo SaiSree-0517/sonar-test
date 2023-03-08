@@ -12,7 +12,12 @@ import LogoutImageFill from "../../../public/assets/images/logout-fill.svg"
 
 export const BUY="BUY"
 export const SELL="SELL"
-
+export const LEGAL="Legal & Privacy"
+export const CAREERS="Careers"
+export const COPY="© 2021 Minet"
+export const DASHBOARD="Dashboard"
+export const NEEDHELP="NEED HELP"
+export const footerList=["English","Hindi"]
 export const navigationList =[
     {   
         title:"Dash Board",

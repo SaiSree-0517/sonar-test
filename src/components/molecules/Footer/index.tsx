@@ -4,6 +4,7 @@ import theme from '../../../theme/theme'
 import MuiButton from '../../atoms/Button'
 import TypographyComponent from '../../atoms/Typography'
 import Dropper from '../Dropper'
+import {LEGAL,DASHBOARD,CAREERS,COPY,NEEDHELP,footerList} from "../../utils/constants"
 const StyledBox = styled(Box)({
   [theme.breakpoints.up('lg')]:{
     maxWidth: '1500px'
@@ -53,19 +54,19 @@ const Footer = () => {
       <MainContainer container>
         <Grid item xs={6}>
           <Stack direction="row" spacing={4}>
-            <StyledTypographyBlue variant="body2" children={'Dashboard'} />
-            <StyledTypographyBlue variant="body2" children={'Careers'} />
+            <StyledTypographyBlue variant="body2" children={DASHBOARD} />
+            <StyledTypographyBlue variant="body2" children={CAREERS} />
             <StyledTypographyBlue
               variant="body2"
-              children={'Legal & Privacy'}
+              children={LEGAL}
             />
-            <StyledTypographyBlack variant="body2" children={'© 2021 Minet'} />
+            <StyledTypographyBlack variant="body2" children={COPY} />
           </Stack>
         </Grid>
         <RightContainer item xs={6} justifyContent="flex-end">
           <Stack direction="row" spacing={2} justifyContent="flex-end">
-            <Dropper onChange={() => { } } menuList={['English', 'Hindi']} width={'170px'} backgroundColor="none" allowAsProps={true}/>
-            <StyledButton variant="outlined" children="NEED HELP" />
+            <Dropper onChange={() => { } } menuList={footerList} width={'170px'} backgroundColor="none" />
+            <StyledButton variant="outlined" children={NEEDHELP} />
           </Stack>
         </RightContainer>
       </MainContainer>
