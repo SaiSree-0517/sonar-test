@@ -51,7 +51,7 @@ const Dropper: React.FC<DropperProps> = (props) => {
       defaultValue={menuList[0]}
       onChange={(e) => onChange(e.target.value)}
       sx={{ width: width, backgroundColor: backgroundColor }}
-      IconComponent={() => (
+      IconComponent={(allowAsProps:true) => (
         <StyledBox >
           <Icon src={ChevronDown} width="12.73px" height="7.78px" />
         </StyledBox>
