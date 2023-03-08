@@ -10,7 +10,6 @@ interface DropperProps {
   menuList: Array<string>
   width: string | React.CSSProperties
   backgroundColor?: string | React.CSSProperties
-  allowAsProps: true ,
 }
 const StyledDropDown = styled(Select)(() => ({
   '& .MuiSelect-select': {
@@ -41,7 +40,6 @@ const StyledBox = styled(Box)(() => ({
   alignItems: 'center',
   marginRight: '3px',
   marginLeft: '0px',
-  allowAsProps:true,
 }))
 const Dropper: React.FC<DropperProps> = (props) => {
   const { onChange, menuList, width , backgroundColor} = props
@@ -52,7 +50,7 @@ const Dropper: React.FC<DropperProps> = (props) => {
       onChange={(e) => onChange(e.target.value)}
       sx={{ width: width, backgroundColor: backgroundColor }}
       IconComponent={(_allowAsProps:true) => (
-        <StyledBox >
+        <StyledBox>
           <Icon src={ChevronDown} width="12.73px" height="7.78px" />
         </StyledBox>
       )}
